@@ -79,7 +79,7 @@ class _IOSKeyboardActionState extends State<IOSKeyboardAction> {
                   ),
                 ),
                 AnimatedContainer(
-                  duration: const Duration(milliseconds: 500),
+                  duration: const Duration(milliseconds: 200),
                   height: MediaQuery
                       .of(context)
                       .viewInsets
