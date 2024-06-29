@@ -99,7 +99,7 @@ class _IOSKeyboardActionState extends State<IOSKeyboardAction> {
           _overlayEntry = _createOverlayEntry();
           Overlay.of(context)!.insert(_overlayEntry!);
           if (widget.callBack != null) {
-            widget.callBack();
+            widget.callBack!();
           }
         } else {
           _overlayEntry!.remove();
